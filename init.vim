@@ -39,6 +39,9 @@ nmap <F8> :TagbarToggle<CR>
 "CocCompletionconfig
 inoremap <expr> <Tab> pumvisible() ? coc#_select_confirm() : "Tab"
 
+"Terminal
+nnoremap <C-i> :TerminalSplit bash<CR>
+
 "Notes just in case I forget
 " :PlugInstall = Installs all plugins
 " :PlugClean = Removes reminents of all removed plugins
