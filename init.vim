@@ -18,7 +18,6 @@ Plug 'http://github.com/neoclide/coc.nvim' "AutoCompletion
 Plug 'http://github.com/ryanoasis/vim-devicons' "DevIcons
 Plug 'http://github.com/tc50cal/vim-terminal' "vimTerminal
 Plug 'http://github.com/preservim/tagbar' "CodeNav
-
 set encoding=UTF-8
 
 call plug#end()
@@ -34,9 +33,16 @@ let g:NERDTreeDirArrowCollapsible="~"
 "Tagbar Config
 nmap <F8> :TagbarToggle<CR>
 
-
 "colourscheme
 :colorscheme jellybeans
 
 "CocCompletionconfig
 inoremap <expr> <Tab> pumvisible() ? coc#_select_confirm() : "Tab"
+
+"Notes just in case I forget
+" :PlugInstall = Installs all plugins
+" :PlugClean = Removes reminents of all removed plugins
+"
+" :Cocinstall coc-python
+" :Cocinstall coc-cland
+" ^ google others if I want more
